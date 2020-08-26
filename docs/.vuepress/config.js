@@ -5,9 +5,14 @@ module.exports = {
         ['link', {
             rel: 'icon',
             href: `/icon.jpg`
+        }],["script", {
+          "language": "javascript",
+          "type": "text/javascript",
+          "src": "/js/clickMove.js"
         }]
     ],
     dest: './docs/.vuepress/dist',
+    // permalink: "/:year/:month/:day/:slug", //配置永久链接
     ga: '',
     evergreen: true,
     markdown: {
