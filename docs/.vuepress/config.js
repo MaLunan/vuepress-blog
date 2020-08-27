@@ -1,6 +1,7 @@
 module.exports = {
-    title: 'Hello VuePress',
+    title: 'Hello MaLunan',
     description: 'Hello, my friend!',
+    base:"/",
     head: [
         ['link', {
             rel: 'icon',
@@ -39,6 +40,7 @@ module.exports = {
     sidebar: [
     {
         title: 'Guide',
+        //是否折叠
         collapsable: false,
         children: ['/guide/']
     }         
