@@ -2,7 +2,7 @@
 home: true
 heroImage: /icon.jpg
 actionText: 岁月静好 →
-actionLink: /guide/
+actionLink: /views/
 features:
 - title: 你若安好
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
