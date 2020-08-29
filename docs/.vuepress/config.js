@@ -55,8 +55,8 @@ module.exports = {
     editLinkText: '在GitHub 上编辑此页！',
     //评论
     valineConfig: {
-      appId: 'xbT4pPXCWQju5T7GXC5fUFlF-gzGzoHsz',
-      appKey: 'bofA5chNQ60p37Ih9sMffSI0',
+      appId: '',
+      appKey: '',
       placeholder: '填写邮箱可以收到回复哦!',
       notify: true, // 邮件提醒
       verify: true, // 验证码
