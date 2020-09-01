@@ -15,7 +15,7 @@ module.exports = [
                     link:'/views/Bug/bug'
                 },{
                     text: '面试宝典',
-                    link:'/views/basis/js'
+                    link:'/views/interview/interview-01'
                 },
             ]
     },

@@ -26,7 +26,7 @@ module.exports = {
             title: '面试宝典',
             collapsable: true,
             children: [
-                'basis/js.md'
+                'interview/interview-01.md'
             ]
         },
     ]
