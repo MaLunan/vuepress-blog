@@ -1,5 +1,5 @@
 ---
-title: 友人帐
+title: 前端知识点
 sidebar: true
 # isShowComments: true
 ---
