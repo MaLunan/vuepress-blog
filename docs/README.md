@@ -1,14 +1,14 @@
 ---
 home: true
 heroImage: /icon.jpg
-actionText: 岁月静好 →
+actionText: 知识点 →
 actionLink: /views/
 features:
-- title: 你若安好
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: 便是晴天
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-footer: MIT Licensed | Copyright © 2018-present xxxxxx
+- title: 知识笔记
+  details: 前端html,css,js基础知识,面试技巧，高级进阶，以及记录bug处理，后面会考虑写java的一些笔记。
+- title: 组件库
+  details: 一些项目常用的基础组件，以及二次封装有复杂逻辑的业务组件。
+- title: 生活随笔
+  details: 记录生活，记录成长，记录小美好。
+footer: Copyright © 2020 Malunan 
 ---
