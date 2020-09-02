@@ -26,7 +26,24 @@ module.exports = {
             title: '面试宝典',
             collapsable: true,
             children: [
-                'interview/interview-01.md'
+                'interview/interview-01.md',
+                'interview/vue.md',
+                'interview/react.md'
+            ]
+        },
+    ],
+    '/coms/':[
+        {
+            title: '基础组件',
+            collapsable: true,
+            children: [
+                'basicsCom/pagination'
+            ]
+        },{
+            title: '业务组件',
+            collapsable: true,
+            children: [
+                'basicsCom/pagination'
             ]
         },
     ]

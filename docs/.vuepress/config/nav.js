@@ -19,7 +19,18 @@ module.exports = [
                 },
             ]
     },
-    {text: '组件库', link: '/timeline/',},
+    {
+        text: '组件库', 
+        items: [
+                {
+                    text: '基础组件',
+                    link:'/coms/basicsCom/pagination'
+                },{
+                    text: '业务组件',
+                    link:'/coms/professionCom/array-note'
+                },
+            ]
+    },
     {text: '随笔', link: '/timeline/',},
     {text: '关于我', link: '/about/',},
     // {
