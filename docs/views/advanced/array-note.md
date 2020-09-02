@@ -3,6 +3,8 @@ title: 高级进阶-数组
 sidebar: true
 # isShowComments: true
 ---
+# 高级进阶-数组
+
 ## 生成类似[1-100]这样的的数组：
 `测试大量数组数据时可以：`
 ``` js

@@ -2,6 +2,9 @@
 title: 面试宝典-react
 sidebar: true
 --- 
+
+# 面试宝典-react
+
 React 中 keys  的作用是什么？
 Keys 是 React  用于追踪哪些列表中元素被修改、被添加或者被移除的辅助标识。
 在开发过程中，我们需要保证某个元素的 key  在其同级元素中具有唯一性。在

@@ -3,6 +3,9 @@ title: 基础知识-js常用代码
 sidebar: true
 # isShowComments: true
 ---
+
+# 基础知识-js常用代码
+
 [[toc]]
 
 ## 基础类型
@@ -152,14 +155,14 @@ sidebar: true
 `元素.removeEventListener('事件类型',事件处理函数）`移除绑定事件  
 `attachEvent` IE低版本浏览器  
 
-#### 浏览器事件
+### 浏览器事件
 
 `onload` 加载完毕后执行  
 `onscroll` 滚动事件  
 `onresize` 浏览器尺寸改变  
 `docunmentElement(||body).scrollTop` 浏览器卷去的高度  
 
-#### 鼠标事件
+### 鼠标事件
 
 `click` 单击  
 `dblclick` 双击  
@@ -172,13 +175,13 @@ sidebar: true
 `mouseup` 鼠标抬起  
 `contextmenu` 右键  
 
-#### 键盘事件
+### 键盘事件
 
 `keydown` 键盘按下  
 `keyup` 键盘抬起  
 `keypress` 键盘按下再抬起  
 
-#### 表单事件
+### 表单事件
 
 `blur` 失去焦点  
 `focus` 获取焦点  
@@ -186,13 +189,13 @@ sidebar: true
 `input` 文本框内容改变  
 `submit` 表单提交 (专门给 form 标签使用的)  
 
-#### 触摸事件
+### 触摸事件
 
 `touchstart` 开始触摸  
 `touchmove` 触摸移动  
 `touchend` 触摸结束  
 
-#### 其他事件
+### 其他事件
 
 `transitionend` 过度结束的时候触发  
 `animationend`  动画结束的时候触发  
@@ -320,13 +323,13 @@ var ze = new RegExp("^[0-9]+"+param+"[a-z]+$","g");
 
 `let` 变量  `const` 常量
 
-#### 面向对象  
+### 面向对象  
 
 `calss` 关键字  `class` 类名  
 `constructor(){}` 构造函数体    
 `prototype` 函数自带属性  
 
-#### 关于 prototype、__proto__ 原型链  
+### 关于 prototype、__proto__ 原型链  
 
 `__protot__`
 
@@ -335,16 +338,16 @@ var ze = new RegExp("^[0-9]+"+param+"[a-z]+$","g");
 3. **每一个函数天生自带的那个 prototype 上有一个 constructor 属性，指向该构造函数**  
 4. **当一个对象没有准确的构造函数来实例化的时候，那么他的所属构造函数是 Object**  
 
-#### Es6继承
+### Es6继承
 
 `extends` 继承  
 `super(  参数)`  
 
-#### 数据劫持
+### 数据劫持
 
 `Object.defineProperty(你要给谁添加，添加的key,配置项{get(){return 'jack'}set(接收一个参数){捕获你想改变的行为}}` 数据劫持  
 
-#### classList
+### classList
 
 `classList` 每一个元素都有一个classList的属性  
 `add`（您要添加的类名）用来添加类名的  
@@ -355,7 +358,7 @@ var ze = new RegExp("^[0-9]+"+param+"[a-z]+$","g");
 
 ## 解构赋值
 
-#### 数组解构
+### 数组解构
 
 `[a, b] = [b, a]` 交换变量  
 `const [firstColor = "white"] = colors` 结构默认值 colors为空  则赋予`white`  
@@ -386,7 +389,7 @@ var [,,third] = ["foo", "bar", "baz"];
 
 ```
 
-#### 对象解构
+### 对象解构
 
 ``` js
 // 首先指定被绑定的属性，然后紧跟一个要解构的变量。
