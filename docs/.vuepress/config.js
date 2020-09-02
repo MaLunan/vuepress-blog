@@ -49,5 +49,5 @@ module.exports = {
     editLinks: true,
     // 默认为 "Edit this page"
     editLinkText: '在GitHub 上编辑此页！',
-    }
+    },
 }

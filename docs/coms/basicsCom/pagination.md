@@ -164,3 +164,4 @@ export default {
 | layout          | 组件布局，子组件名用逗号分隔  |    total, sizes, prev, pager, next, jumper|
 | background      | 背景色      |    true |
 | hidden          | 显示隐藏      |    true |
+

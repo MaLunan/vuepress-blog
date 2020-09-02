@@ -1,6 +1,6 @@
 //分页
 <template>
-  <pagination 
+    <pagination 
         :total='page.total' 
         :page='page.current' 
         :limit='page.size'
@@ -8,6 +8,7 @@
         @update:page='updatepage'
         @pagination='pagination'>
     </pagination>
+  
 </template>
 
 <script>
