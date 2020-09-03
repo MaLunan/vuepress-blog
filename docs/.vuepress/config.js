@@ -2,18 +2,24 @@ const  nav =require('./config/nav.js') ;
 const  sidebar =require('./config/sidebar.js');
 
 module.exports = {
-    title: 'MaNong-blog',
-    description: '胸有凌云志，无高不可攀',
+    title: 'MaNong个人博客',
+    description: 'MaNong个人博客网站，学习前端、后端知识，分享面试经验，分享工作中的问题和写一些技术分享，是一个互联网从业者值得收藏的网站。',
     base:"/",
     head: [
         ['link', {
             rel: 'icon',
             href: `/icon.jpg`
+        }],['meta', {
+            name: 'keywords',
+            content: '个人博客，个人网站，个人博客模板，个人原创网站，技术博客，前端博客'
+        }],['meta', {
+            name: 'author',
+            content: 'MaNong'
         }],["script", {
-          "language": "javascript",
-          "type": "text/javascript",
-          "src": "/js/clickMove.js"
-        }]
+            "language": "javascript",
+            "type": "text/javascript",
+            "src": "/iconfont/iconfont.js"
+          }]
     ],
     dest: './docs/.vuepress/dist',
     // permalink: "/:year/:month/:day/:slug", //配置永久链接
