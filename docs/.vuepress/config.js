@@ -9,6 +9,9 @@ module.exports = {
         ['link', {
             rel: 'icon',
             href: `/icon.jpg`
+        }],['link', {
+            rel: 'stylesheet',
+            href: `/iconfont/iconfont.css`
         }],['meta', {
             name: 'keywords',
             content: '个人博客，个人网站，个人博客模板，个人原创网站，技术博客，前端博客'

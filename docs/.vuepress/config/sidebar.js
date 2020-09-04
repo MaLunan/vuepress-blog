@@ -43,8 +43,18 @@ module.exports = {
             title: '业务组件',
             collapsable: true,
             children: [
-                'basicsCom/pagination'
+                'professionCom/yewu'
             ]
         },
-    ]
+    ],
+    '/jottings/':[
+        {
+            title: '随笔',
+            collapsable: true,
+            children: [
+                '20200904'
+            ]
+        },
+    ],
+
 }
