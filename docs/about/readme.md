@@ -3,15 +3,21 @@ title: 关于我
 sidebar: false
 ---
 
-<p align="center"><img style="border-radius:41%;pointer-events:none;transform: scale(0.9);" :src="$withBase('/icon.jpg')" alt="MaNong" width=260></p>
+<p align="center"><img style="border-radius:41%;pointer-events:none;transform: scale(0.9);" :src="$withBase('/icon.jpg')" alt="MaLUnan-个人博客|IT技术博客" width=260></p>
 
 ### 一句话
 
-- 我不知道为什么我喜欢你，就像我无法描述水的味道一样，但我知道我需要你就像我需要水一样.[MaNong](https://malunan.github.io/)
+- 我不知道为什么我喜欢你，就像我无法描述水的味道一样，但我知道我需要你就像我需要水一样.[MaLunan](https://malunan.github.io/)
+
+### 关于本项目
+
+- 基于vuepress+element前端+后端node.js+mongoDB的个人博客
+- 用Markdown快速编写文档，可解析vue模板语法，每一个由 VuePress生成的页面都带有预渲染好的 HTML，也因此具有非常好的加载性能和搜索引擎优化（SEO）。
+- 项目地址[https://github.com/MaLunan/vuepress-blog](https://github.com/MaLunan/vuepress-blog)
 
 ### 关于我
 
-- MaNong|小峰峰峰
+- MaLunan|小峰峰峰
 - 职业：前端工程师
 - 现居：北京
 - 喜欢写Bug，玩游戏，喜欢搞一些新鲜玩意儿，喜欢新的技术，喜欢吃肉
