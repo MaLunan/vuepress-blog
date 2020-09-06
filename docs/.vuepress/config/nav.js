@@ -6,7 +6,7 @@ module.exports = [
         items: [
                 {
                     text: '基础知识',
-                    link:'/views/basis/js'
+                    link:'/views/basis/git'
                 },{
                     text: '高级进阶',
                     link:'/views/advanced/array-note'

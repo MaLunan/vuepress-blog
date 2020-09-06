@@ -5,7 +5,10 @@ module.exports = {
             title: '基础知识',
             collapsable: true,
             children: [
-                'basis/js.md'
+                'basis/git.md',
+                'basis/js.md',
+                'basis/jquery.md',
+                'basis/css.md'
             ]
         },
         {

@@ -2,8 +2,8 @@ const  nav =require('./config/nav.js') ;
 const  sidebar =require('./config/sidebar.js');
 
 module.exports = {
-    title: 'MaNong个人博客',
-    description: 'MaNong个人博客网站，学习前端、后端知识，分享面试经验，分享工作中的问题和写一些技术分享，是一个互联网从业者值得收藏的网站。',
+    title: 'MaLunan-个人博客|IT技术博客',
+    description: 'MaLunan个人博客网站，学习前端、后端知识，分享面试经验，分享工作中的问题和写一些技术分享，是一个互联网从业者值得收藏的网站。',
     base:"/",
     head: [
         ['link', {
@@ -14,7 +14,7 @@ module.exports = {
             href: `/iconfont/iconfont.css`
         }],['meta', {
             name: 'keywords',
-            content: '个人博客，个人网站，个人博客模板，个人原创网站，技术博客，前端博客'
+            content: '个人博客,技术博客,前端博客,个人网站,个人博客模板,个人原创网站'
         }],['meta', {
             name: 'baidu-site-verification',
             content: 'bdukCluk30'
