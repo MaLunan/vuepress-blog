@@ -16,6 +16,9 @@ module.exports = {
             name: 'keywords',
             content: '个人博客，个人网站，个人博客模板，个人原创网站，技术博客，前端博客'
         }],['meta', {
+            name: 'baidu-site-verification',
+            content: 'bdukCluk30'
+        }],['meta', {
             name: 'author',
             content: 'MaNong'
         }],["script", {

@@ -13,7 +13,6 @@
 
 <script>
 import pagination from '../plugins/components/pagination.vue';
-import { getblog } from '../public/https/api.js';
 export default {
 components:{pagination},
   data(){
@@ -26,15 +25,8 @@ components:{pagination},
       }
   },
   mounted(){
-            this.get()
   },
   methods: {
-      
-        get(){
-            getblog().then((res)=>{
-                console.log(res)
-            })
-        },
         //分页
         pagination(val){
         this.page.current=val.page

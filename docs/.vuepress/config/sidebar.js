@@ -27,6 +27,7 @@ module.exports = {
             collapsable: true,
             children: [
                 'interview/interview-01.md',
+                'interview/jsbasis.md',
                 'interview/vue.md',
                 'interview/react.md'
             ]
