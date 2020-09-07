@@ -1,46 +1,57 @@
 //分页
 <template>
-   <div class='msg_box'>
-        <div class='title_box'>
-            <el-input v-model="input" style='width:120px' placeholder="昵称"></el-input>
-            <el-input v-model="input" type:   style='flex:1;margin-left:24px' placeholder="邮箱"></el-input>
-        </div>
-        <el-input
-            type="textarea"
-            :rows="8"
-            placeholder="请输入内容"
-            v-model="textarea">
-        </el-input>
-        <div class='fllter'>
-            <el-button type="primary" round size='mini'>回复</el-button>
-        </div>
+<div class="msg">
+    <h1>评论留言：</h1>
+   <emalipush></emalipush>
+   <p v-if="dataList.allCount">共<strong style="font-size:23px">{{dataList.allCount}}</strong>条评论</p>
+   <div class="footer-box" v-if="dataList.allCount">
+       <discuss :dataList='dataList'></discuss>
    </div>
+</div>
 </template>
 
 <script>
-import { getblog } from '../public/https/api.js';
+import { getblog,addMsg } from '../public/https/api.js';
+import discuss from '../plugins/components/discuss.vue';
+import emalipush from '../plugins/components/emalipush.vue';
 export default {
+components:{discuss,emalipush},
   data(){
       return {
-          input:"",
-          textarea:'',
+          dataList:{},
       }
   },
   mounted(){
             this.getblog()
+            console.log(this)
   },
   methods: {
       
         getblog(){
-            getblog().then((res)=>{
-                console.log(res)
+            getblog(this.$page.path).then((res)=>{
+                if(res.data.err!==0) return console.log(res.data)
+               this.dataList=res.data.list
             })
         },
+        addMsg(){
+            addMsg({
+                username:this.username,
+                emali:this.emali,
+                content:this.content,
+                theme:this.$page.path,
+                }).then((res)=>{
+                console.log(res)
+                this.getblog()
+            })
+        }
     }
 }
 </script>
 
 <style lang='scss' scoped>
+li{
+    list-style: none;
+}
 .msg_box{
     width:100%;
     padding:24px;
@@ -58,5 +69,11 @@ export default {
         align-items: center;
         justify-content: flex-end; 
     }
+}
+.footer-box{
+    width:100%;
+    padding:24px;
+    height:auto;
+    box-shadow:0px 2px 6px 0px;
 }
 </style>

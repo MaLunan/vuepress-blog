@@ -1,10 +1,52 @@
 {
-  "id": "",
-  "name": "",
+  "id": "2050351",
+  "name": "vuepress-bolg",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
   "description": "",
   "glyphs": [
+    {
+      "icon_id": "698836",
+      "name": "赞",
+      "font_class": "cha-copy-copy",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "819463",
+      "name": "时间",
+      "font_class": "shijian",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "2671880",
+      "name": "心",
+      "font_class": "xin",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "2794286",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "2821901",
+      "name": "浏览量",
+      "font_class": "liulan",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "9510410",
+      "name": "作者",
+      "font_class": "renyuan",
+      "unicode": "e6fb",
+      "unicode_decimal": 59131
+    },
     {
       "icon_id": "4408227",
       "name": "主页",
@@ -16,8 +58,8 @@
       "icon_id": "8105603",
       "name": "github",
       "font_class": "github",
-      "unicode": "e506",
-      "unicode_decimal": 58630
+      "unicode": "e600",
+      "unicode_decimal": 58880
     },
     {
       "icon_id": "8709772",
