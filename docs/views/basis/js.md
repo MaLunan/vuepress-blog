@@ -426,3 +426,6 @@ var [,,third] = ["foo", "bar", "baz"];
     console.log(second);
     // "Brannigan"
 ```
+
+
+<leave/>

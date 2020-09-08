@@ -199,3 +199,4 @@ store  取。
 是会重新 render，可能会有效率影响，或者需要写复杂的
 shouldComponentUpdate  进行判断。
 
+<leave/>

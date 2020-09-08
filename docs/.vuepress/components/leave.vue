@@ -33,17 +33,6 @@ components:{discuss,emalipush},
                this.dataList=res.data.list
             })
         },
-        addMsg(){
-            addMsg({
-                username:this.username,
-                emali:this.emali,
-                content:this.content,
-                theme:this.$page.path,
-                }).then((res)=>{
-                console.log(res)
-                this.getblog()
-            })
-        }
     }
 }
 </script>

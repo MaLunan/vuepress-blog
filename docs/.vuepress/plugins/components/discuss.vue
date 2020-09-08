@@ -13,8 +13,9 @@
                         <div class="footer-box">
                             <i class="iconfont icon-dianzan zan"> {{item.likeNum}}</i>
                             <i class="iconfont icon-cha-copy-copy zan"> {{item.nolikeNum}}</i>
-                            <el-button type="primary" round size='mini' @click="addMsg(item.username,item.id)">回复</el-button>
+                            <el-button type="primary" round size='mini' @click="addMsgitem(index)">{{activeitem===index&&itemIs?'关闭':'回复'}}</el-button>
                         </div>
+                        <emalipush :row="2" v-if="activeitem===index&&itemIs" :itemList='item' :id='item.id'></emalipush>
                         <ul class="ul-box" v-if="dataList.allblog">
                             <li  v-for="(str,ind) in dataList.allblog[item.id]" :key="ind">
                                 <div class="cont-box">
@@ -28,8 +29,9 @@
                                         <div class="footer-box">
                                             <i class="iconfont icon-dianzan zan"></i>
                                             <i class="iconfont icon-cha-copy-copy zan"></i>
-                                            <el-button type="primary" round size='mini'@click="addMsg(str.username,item.id)">回复</el-button>
+                                            <el-button type="primary" round size='mini'@click="addMsgstr(index,ind)">{{activeitem===index&&activestr===ind&&strIs?'关闭':'回复'}}</el-button>
                                         </div>
+                                        <emalipush :row="2" v-if="activeitem===index&&activestr===ind&&strIs" :itemList='str' :id='item.id'></emalipush>
                                     </div>
                                     <div>
 
@@ -48,8 +50,9 @@
 
 <script>
 import { getblog,addMsg } from '../../public/https/api.js';
+import emalipush from '../components/emalipush.vue';
 export default {
-components:{},
+components:{emalipush},
   name: 'discuss',
   props: {
     dataList:{
@@ -59,18 +62,34 @@ components:{},
         } 
     }
   },
+  data(){
+      return {
+          activeitem:null,
+          activestr:null,
+          itemIs:false,
+          strIs:false
+      }
+  },
  
   methods: {
-      addMsg(){
-          addMsg({
-                username:this.username,
-                emali:this.emali,
-                content:this.content,
-                theme:this.$page.path,
-                }).then((res)=>{
-                console.log(res)
-                this.getblog()
-            })
+      addMsgitem(index){
+          if(this.activeitem===index){
+              this.itemIs=!this.itemIs
+          }else{
+              this.itemIs=true
+          }
+          this.strIs=false
+          this.activeitem=index
+      },
+      addMsgstr(index,ind){
+          if(this.activestr===ind&&this.activeitem===index){
+              this.strIs=!this.strIs
+          }else{
+              this.strIs=true
+          }
+          this.itemIs=false
+          this.activeitem=index
+          this.activestr=ind
       }
   }
 }

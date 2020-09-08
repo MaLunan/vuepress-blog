@@ -798,3 +798,5 @@ return inner;
 }
 outer()();
 ```
+
+<leave/>
