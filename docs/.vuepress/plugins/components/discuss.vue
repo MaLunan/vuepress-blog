@@ -11,8 +11,8 @@
                         </p>
                         <p>{{item.content}}</p>
                         <div class="footer-box">
-                            <i class="iconfont icon-dianzan zan"> {{item.likeNum}}</i>
-                            <i class="iconfont icon-cha-copy-copy zan"> {{item.nolikeNum}}</i>
+                            <!-- <i class="iconfont icon-dianzan zan"> {{item.likeNum}}</i>
+                            <i class="iconfont icon-cha-copy-copy zan"> {{item.nolikeNum}}</i> -->
                             <el-button type="primary" round size='mini' @click="addMsgitem(index)">{{activeitem===index&&itemIs?'关闭':'回复'}}</el-button>
                         </div>
                         <emalipush :row="2" v-if="activeitem===index&&itemIs" :itemList='item' :id='item.id'></emalipush>

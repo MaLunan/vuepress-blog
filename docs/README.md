@@ -2,7 +2,7 @@
 home: true
 heroImage: /icon.jpg
 actionText: 知识点 →
-actionLink: /views/basis/js
+actionLink: /views/basis/git
 features:
 - title: 知识笔记
   details: 前端html,css,js,node.js基础知识,vue,react,面试技巧，高级进阶，以及记录bug处理，后面会考虑写java的一些笔记。
