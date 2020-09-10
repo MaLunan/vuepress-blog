@@ -1,0 +1,5 @@
+node_modules/
+gb-pages/
+docs/.vuepress/dist/
+.vscode/
+.idea/

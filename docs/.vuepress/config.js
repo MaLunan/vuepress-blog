@@ -2,18 +2,30 @@ const  nav =require('./config/nav.js') ;
 const  sidebar =require('./config/sidebar.js');
 
 module.exports = {
-    title: '前端学习记录',
-    description: '胸有凌云志，无高不可攀',
+    title: 'MaLunan-个人博客|IT技术博客',
+    description: 'MaLunan个人博客网站，学习前端、后端知识，分享面试经验，分享工作中的问题和写一些技术分享，是一个互联网从业者值得收藏的网站。',
     base:"/",
     head: [
         ['link', {
             rel: 'icon',
             href: `/icon.jpg`
+        }],['link', {
+            rel: 'stylesheet',
+            href: `/iconfont/iconfont.css`
+        }],['meta', {
+            name: 'keywords',
+            content: '个人博客,技术博客,前端博客,个人网站,个人博客模板,个人原创网站'
+        }],['meta', {
+            name: 'baidu-site-verification',
+            content: 'bdukCluk30'
+        }],['meta', {
+            name: 'author',
+            content: 'MaNong'
         }],["script", {
-          "language": "javascript",
-          "type": "text/javascript",
-          "src": "/js/clickMove.js"
-        }]
+            "language": "javascript",
+            "type": "text/javascript",
+            "src": "/iconfont/iconfont.js"
+          }]
     ],
     dest: './docs/.vuepress/dist',
     // permalink: "/:year/:month/:day/:slug", //配置永久链接
@@ -31,10 +43,6 @@ module.exports = {
     // 通过 themeConfig.sidebarDepth 来修改它的行为。默认的深度是 1，它将提取到 h2 的标题，设置成 0 将会禁用标题（headers）链接，同时，最大的深度为 2，它将同时提取 h2 和 h3 标题。
     sidebarDepth: 2,   
     lastUpdated: '上次更新时间', // string | boolean    最后更新时间 前缀
-     // 作者
-     author: 'malunan',
-     // 备案号
-     record: '99999999',
      // 项目开始时间
      startYear: '2020',
     // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
@@ -53,14 +61,5 @@ module.exports = {
     editLinks: true,
     // 默认为 "Edit this page"
     editLinkText: '在GitHub 上编辑此页！',
-    //评论
-    valineConfig: {
-      appId: 'xbT4pPXCWQju5T7GXC5fUFlF-gzGzoHsz',
-      appKey: 'bofA5chNQ60p37Ih9sMffSI0',
-      placeholder: '填写邮箱可以收到回复哦!',
-      notify: true, // 邮件提醒
-      verify: true, // 验证码
-      recordIP: true
     },
-    }
 }

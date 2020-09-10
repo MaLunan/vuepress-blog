@@ -1,4 +1,4 @@
-## 以vueprass 基础搭建的个人博客
+## 以vuepress 基础搭建的个人博客
 
 docs > .vuepress  > config.js 下配置参数
 
