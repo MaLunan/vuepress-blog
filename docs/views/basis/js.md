@@ -6,6 +6,8 @@ sidebar: true
 
 # 基础知识-js常用代码
 
+<title-pv/>
+
 [[toc]]
 
 ## 基础类型

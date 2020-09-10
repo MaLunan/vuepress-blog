@@ -5,6 +5,8 @@ sidebar: true
 
 # 基础知识-jquery常用指令
 
+<title-pv/>
+
 ## 调用方法
 
 `jQuery()`调用  

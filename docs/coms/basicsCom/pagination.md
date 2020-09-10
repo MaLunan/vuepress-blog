@@ -4,6 +4,8 @@ sidebar: true
 editLinks: false
 ---
 
+<title-pv/>
+
 <pagination/>
 
 

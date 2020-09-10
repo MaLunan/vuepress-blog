@@ -42,9 +42,5 @@ export const addMsg=(theme)=>{
 }
 //获取浏览量
 export const getPv=(theme)=>{
-    return service.get('/getblog?theme='+theme);
-}
-//增加浏览量
-export const addPv=(theme)=>{
     return service.get('/addpv?theme='+theme);
 }

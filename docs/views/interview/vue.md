@@ -5,6 +5,8 @@ sidebar: true
 
 # 面试宝典-vue
 
+<title-pv/>
+
 ## 对于 MVVM的理解？
 
 MVVM是  Model-View-ViewModel的缩写。

@@ -4,6 +4,8 @@ sidebar: true
 ---
 # 面试宝典-JS基础2
 
+<title-pv/>
+
 ``` 
 78. javascript  的本地对象，内置对象和宿主对象
 本地对象为 array obj regexp 等可以 new  实例化

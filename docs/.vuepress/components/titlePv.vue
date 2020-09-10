@@ -24,9 +24,6 @@ export default {
             getPv(this.$page.path).then((res)=>{
                 if(res.data.err!==0) return console.log(res.data)
                this.dataList=res.data.list
-               addPv(this.$page.path).then((res)=>{
-                if(res.data.err!==0) return console.log(res.data)
-                })
             })
         },
     }

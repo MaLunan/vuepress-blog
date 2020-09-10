@@ -5,6 +5,8 @@ sidebar: true
 
 # 面试宝典-JS基础
 
+<title-pv/>
+
 ## javascript的typeof返回哪些数据类型
 
 ``` js
