@@ -4,6 +4,8 @@ sidebar: true
 editLinks: false
 ---
 
+# 基础组件-分页器
+
 <title-pv/>
 
 <pagination/>

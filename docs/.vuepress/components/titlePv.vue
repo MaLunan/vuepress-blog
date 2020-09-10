@@ -1,6 +1,6 @@
 //分页
 <template>
-<div class="msg">
+<div class="msga">
     <i class="iconfont icon-renyuan title-text" v-if="this.$page.frontmatter.username" >{{this.$page.frontmatter.username}}</i>
     <i class="iconfont icon-renyuan title-text" v-else>MaLunan</i>
     <i class="iconfont icon-liulan title-text"> {{dataList.pv}}</i>

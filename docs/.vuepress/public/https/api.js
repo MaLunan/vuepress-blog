@@ -2,7 +2,8 @@ import axios from 'axios';
 // 172.21.0.17
 // 创建axios实例
 const service = axios.create({
-  baseURL:window.location.hostname==='127.0.0.1'||window.location.hostname==='localhost'?`http://127.0.0.1:3000`:'https://zmln1021.cn:3000',
+  baseURL:'https://zmln1021.cn:3000',//线上
+  // baseURL:'http://127.0.0.1:3000',//开发
   withCredentials: false,
 })
 service.interceptors.request.use(
@@ -18,7 +19,6 @@ service.interceptors.request.use(
 // response 拦截器
 service.interceptors.response.use(
   response => {
-      console.log(window.location)
       return response
   },
   error => {
