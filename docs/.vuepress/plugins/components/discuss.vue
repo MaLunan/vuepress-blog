@@ -27,8 +27,8 @@
                                         </p>
                                         <p><span class="aite">@{{str.parentName}}</span>{{str.content}}</p>
                                         <div class="footer-box">
-                                            <i class="iconfont icon-dianzan zan"></i>
-                                            <i class="iconfont icon-cha-copy-copy zan"></i>
+                                            <!-- <i class="iconfont icon-dianzan zan"></i>
+                                            <i class="iconfont icon-cha-copy-copy zan"></i> -->
                                             <el-button type="primary" round size='mini'@click="addMsgstr(index,ind)">{{activeitem===index&&activestr===ind&&strIs?'关闭':'回复'}}</el-button>
                                         </div>
                                         <emalipush :row="2" v-if="activeitem===index&&activestr===ind&&strIs" :itemList='str' :id='item.id'></emalipush>

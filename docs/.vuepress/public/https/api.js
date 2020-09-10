@@ -2,8 +2,8 @@ import axios from 'axios';
 // 172.21.0.17
 // 创建axios实例
 const service = axios.create({
-  baseURL:'https://zmln1021.cn:3000',//线上
-  // baseURL:'http://127.0.0.1:3000',//开发
+  // baseURL:'https://zmln1021.cn:3000',//线上
+  baseURL:'http://127.0.0.1:3000',//开发
   withCredentials: false,
 })
 service.interceptors.request.use(
