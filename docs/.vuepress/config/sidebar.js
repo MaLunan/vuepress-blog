@@ -47,7 +47,8 @@ module.exports = {
             title: '业务组件',
             collapsable: true,
             children: [
-                'professionCom/yewu'
+                'professionCom/msg',
+                'professionCom/createfrom'
             ]
         },
     ],

@@ -27,7 +27,7 @@ module.exports = [
                     link:'/coms/basicsCom/pagination'
                 },{
                     text: '业务组件',
-                    link:'/coms/professionCom/yewu'
+                    link:'/coms/professionCom/msg'
                 },
             ]
     },

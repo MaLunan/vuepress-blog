@@ -14,6 +14,7 @@
   "dependencies": {
     "axios": "^0.20.0",
     "element-ui": "^2.13.2",
+    "form-create": "^1.6.6",
     "sass": "^1.26.10",
     "sass-loader": "^10.0.1"
   }

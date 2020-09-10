@@ -9,5 +9,5 @@ export default ({
   // ...做一些其他的应用级别的优化
 //   Vue.use(VueHighlightJS)
   Vue.use(Element)
-//   Vue.component('chart', VueECharts)
+  // Vue.component('formCreate', formCreate)
 }

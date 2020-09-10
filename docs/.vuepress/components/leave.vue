@@ -1,4 +1,4 @@
-//分页
+//留言板
 <template>
 <div class="msg">
     <h1>评论留言：</h1>
