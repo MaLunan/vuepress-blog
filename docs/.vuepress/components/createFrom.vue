@@ -1,6 +1,6 @@
 //分页
 <template>
-  <div class="formcreate">
+  <div class="create">
     <el-form ref="formdata" :model="formdata" label-width="80px">
       <el-form-item label="类型">
          <el-select v-model="formdata.type" clearable placeholder="请选择">
@@ -26,20 +26,20 @@
          <el-checkbox v-model="formdata.disabled">
         </el-checkbox>
       </el-form-item>
-      <el-form-item label="校验规则">
+      <!-- <el-form-item label="校验规则">
          <el-input
             type="textarea"
             :rows="2"
             placeholder="JSON格式"
             v-model="formdata.rule">
         </el-input>
-      </el-form-item>
+      </el-form-item> -->
       <el-form-item>
         <el-button type="primary" @click="create">立即创建</el-button>
         <el-button @click="remove">清空</el-button>
     </el-form-item>
     </el-form>
-    <!-- <create-form id="formcreate" v-model="fApi" :rule="rule" :option="option"></create-form>  -->
+    <create-form id="formcreate" v-model="fApi" :rule="rule" :option="option"></create-form> 
   </div>
 </template>
 
@@ -51,19 +51,19 @@ export default {
     fApi: {},
     rule: [],
     option: {//动态表单配置
-    ref: "formName",
-    global: {
-        "*": {
-            props: {
-            disabled: false
-            }
-        },
-        },
-        on:{
+        ref: "formName",
+        global: {
+            "*": {
+                props: {
+                disabled: false
+                }
+            },
+            },
+            on:{
 
-        },
-        submitBtn:false,
-        resetBtn:false,
+            },
+            submitBtn:false,
+            resetBtn:false,
     },
     formdata:{
         type:'',
@@ -74,16 +74,16 @@ export default {
     arrangementList:[
         {
             label:'一行一列',
-            value:'24'
+            value:24
         },{
             label:'一行两列',
-            value:'12'
+            value:12
         },{
             label:'一行三列',
-            value:'8'
+            value:8
         },{
             label:'一行四列',
-            value:'6'
+            value:6
         },
     ],
       typelist:[
@@ -147,30 +147,64 @@ export default {
             label:'Transfer 穿梭框',
             value:'Transfer'
         },
-      ]
+      ],
     };
   },
-  mounted() {},
+  mounted() {
+  },
+components: {createForm: formCreate.$form()},
   methods: {
-      //创建表单
-      create(){
-
-      },
       //清空表单
       remove(){
           this.formdata={
             type:'',
             arrangement:'',
             disabled:false,
-            rule:''
+            rule:[]
         }
-      }
-  }
-};
+      },
+      //创建表单
+      create(){
+          let formdata=this.formdata
+           let _this=this
+                  let val={
+                    mobile: true,
+                    name: formdata.type,
+                    field:'231',
+                    options: [],
+                    props: {type:'text',
+                          size:'mini',
+                          style:'width: 100%',
+                          disabled:formdata.disabled
+                    },
+                    validate: [
+                    ],
+                    title:formdata.type,
+                    type:'',
+                    on:{},
+                    urls: null,
+                    col: {
+                      span: formdata.arrangement
+                    //     console.log(item)
+                    },
+                  }
+                      switch(formdata.type){
+                          case "number":
+                            val.type='Input'
+                            // val.validate.push( )
+                            break;
+                          default:
+                          val.type=  'Input'
+                        //   val.validate.push(formdata.rule)
+                      }
+                this.rule=[val]
+          },
+    }
+}
 </script>
 
 <style lang='scss' scoped>
-.formcreate{
+.create{
     margin-top:50px;
     margin-bottom: 20px;
 }

@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@form-create/element-ui": "^1.0.19",
     "axios": "^0.20.0",
     "element-ui": "^2.13.2",
     "form-create": "^1.6.6",
