@@ -6,9 +6,13 @@ editLinks: false
 
 # 业务组件-留言板
 
+<ClientOnly>
 <title-pv/>
+</ClientOnly>
 
-<leave/>
+<ClientOnly>
+  <leave/>
+</ClientOnly>/>
 
 ::: details 封装源码
 ``` vue

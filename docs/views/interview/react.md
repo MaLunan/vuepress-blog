@@ -5,7 +5,9 @@ sidebar: true
 
 # 面试宝典-react
 
+<ClientOnly>
 <title-pv/>
+</ClientOnly>
 
 ## React 中 keys  的作用是什么？
 
@@ -201,4 +203,6 @@ store  取。
 是会重新 render，可能会有效率影响，或者需要写复杂的
 shouldComponentUpdate  进行判断。
 
-<leave/>
+<ClientOnly>
+  <leave/>
+</ClientOnly>/>

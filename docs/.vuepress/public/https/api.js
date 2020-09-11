@@ -19,7 +19,6 @@ service.interceptors.request.use(
 // response 拦截器
 service.interceptors.response.use(
   response => {
-    console.log(window.location)
       return response
   },
   error => {

@@ -5,7 +5,9 @@ sidebar: true
 
 # 基础知识-jquery常用指令
 
+<ClientOnly>
 <title-pv/>
+</ClientOnly>
 
 ## 调用方法
 
@@ -168,4 +170,6 @@ dataType写成jsonp发送jsonp
 `$(form).serialize()`获取表单元素，并以字符串形式输出  
 `$元素.delegate('button','click',function(){}`当前或未来元素添加事件
 
-<leave/>
+<ClientOnly>
+  <leave/>
+</ClientOnly>/>

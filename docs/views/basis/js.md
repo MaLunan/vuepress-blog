@@ -6,7 +6,9 @@ sidebar: true
 
 # 基础知识-js常用代码
 
+<ClientOnly>
 <title-pv/>
+</ClientOnly>
 
 [[toc]]
 
@@ -430,4 +432,6 @@ var [,,third] = ["foo", "bar", "baz"];
 ```
 
 
-<leave/>
+<ClientOnly>
+  <leave/>
+</ClientOnly>/>

@@ -6,7 +6,9 @@ sidebar: true
 
 # 高级进阶-数组
 
+<ClientOnly>
 <title-pv/>
+</ClientOnly>
 
 ## 生成类似[1-100]这样的的数组：
 `测试大量数组数据时可以：`
@@ -259,4 +261,6 @@ const html = `
 </ul>
 ```
 
-<leave/>
+<ClientOnly>
+  <leave/>
+</ClientOnly>/>
