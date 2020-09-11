@@ -14,4 +14,4 @@ editLinks: false
 
 <ClientOnly>
   <leave/>
-</ClientOnly>/>
+</ClientOnly/>

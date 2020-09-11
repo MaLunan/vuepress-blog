@@ -33,15 +33,9 @@
                                         </div>
                                         <emalipush :row="2" v-if="activeitem===index&&activestr===ind&&strIs" :itemList='str' :id='item.id'></emalipush>
                                     </div>
-                                    <div>
-
-                                    </div>
                                 </div>  
                             </li>
                         </ul>
-                    </div>
-                    <div>
-
                     </div>
                </div>  
            </li>
@@ -102,7 +96,7 @@ components:{emalipush},
     }
     .text-box{
         margin-left: 24px;
-        width: 100%;
+        width: calc(100% - 88px);
         .title-text{
             color: #ccc;
         }

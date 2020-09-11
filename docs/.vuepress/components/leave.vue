@@ -45,7 +45,7 @@ li{
     list-style: none;
 }
 .msg_box{
-    width:100%;
+    width:calc(100% - 24px);
     padding:24px;
     height:auto;
     margin:0 auto;
@@ -63,7 +63,7 @@ li{
     }
 }
 .footer-box{
-    width:100%;
+    width:calc(100% -24px);
     padding:24px;
     height:auto;
     box-shadow:0px 2px 6px 0px;

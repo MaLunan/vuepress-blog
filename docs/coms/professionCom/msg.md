@@ -12,7 +12,7 @@ editLinks: false
 
 <ClientOnly>
   <leave/>
-</ClientOnly>/>
+</ClientOnly/>
 
 ::: details 封装源码
 ``` vue

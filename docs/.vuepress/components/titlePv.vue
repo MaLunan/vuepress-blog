@@ -1,4 +1,4 @@
-//分页
+//浏览量
 <template>
 <div class="msga">
     <i class="iconfont icon-renyuan title-text" v-if="this.$page.frontmatter.username" >{{this.$page.frontmatter.username}}</i>
