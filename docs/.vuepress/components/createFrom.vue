@@ -44,7 +44,6 @@
 </template>
 
 <script>
-import formCreate, { maker } from "@form-create/element-ui";
 export default {
   data() {
     return {

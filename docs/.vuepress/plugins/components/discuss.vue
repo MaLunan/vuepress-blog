@@ -1,4 +1,4 @@
-//分页
+//discuss
 <template>
     <ul v-if="dataList">
            <li v-for="(item,index) in dataList.allparent" :key="index">
@@ -49,7 +49,6 @@
 </template>
 
 <script>
-import { getblog,addMsg } from '../../public/https/api.js';
 import emalipush from '../components/emalipush.vue';
 export default {
 components:{emalipush},

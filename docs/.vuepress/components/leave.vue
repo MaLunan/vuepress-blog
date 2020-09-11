@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { getblog,addMsg } from '../public/https/api.js';
+// import { getblog,addMsg } from '../public/https/api.js';
 import discuss from '../plugins/components/discuss.vue';
 import emalipush from '../plugins/components/emalipush.vue';
 export default {
@@ -19,16 +19,19 @@ components:{discuss,emalipush},
   data(){
       return {
           dataList:{},
+          getblogs:null
       }
   },
   mounted(){
-            this.getblog()
-            console.log(this)
+            import('../public/https/api.js').then(module => {
+                console.log(module)
+            this.getblogs=module.getblog
+             this.getblog()
+            })
   },
   methods: {
-      
         getblog(){
-            getblog(this.$page.path).then((res)=>{
+            this.getblogs(this.$page.path).then((res)=>{
                 if(res.data.err!==0) return console.log(res.data)
                this.dataList=res.data.list
             })

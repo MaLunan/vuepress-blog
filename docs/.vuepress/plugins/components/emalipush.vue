@@ -1,4 +1,4 @@
-//分页
+//emailpush.vue
 <template>
    <div class='msg_box'>
         <div class='title_box'>
@@ -18,7 +18,6 @@
 </template>
 
 <script>
-import { getblog,addMsg } from '../../public/https/api.js';
 export default {
     props:{
         row:{
@@ -41,6 +40,8 @@ export default {
           username:"",
           emali:"",
           content:'',
+          getblogs:null,
+          addMsgs:null
       }
   },
   mounted(){
@@ -49,6 +50,10 @@ export default {
        this.username=username
        this.emali=emali
      }
+     import('../../public/https/api.js').then(module => {
+                this.getblogs=module.getblog
+                this.addMsgs=module.addMsg
+    })
   },
   methods: {
         addMsg(){
@@ -66,7 +71,7 @@ export default {
                 return
             }
             
-            addMsg({
+            this.addMsgs({
                 username:this.username,
                 emali:this.emali,
                 content:this.content,
