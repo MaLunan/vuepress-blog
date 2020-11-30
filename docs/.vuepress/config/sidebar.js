@@ -48,7 +48,7 @@ module.exports = {
             collapsable: true,
             children: [
                 'professionCom/msg',
-                'professionCom/createfrom'
+                // 'professionCom/createfrom'
             ]
         },
     ],
