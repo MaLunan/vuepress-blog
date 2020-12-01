@@ -1,10 +1,10 @@
 ---
-title: 高级进阶-nginx config文件配置
+title: 前端进阶-nginx config文件配置
 sidebar: true
 # isShowComments: true
 ---
 
-# 高级进阶-nginx config文件配置
+# 前端进阶-nginx config文件配置
 
 <ClientOnly>
 <title-pv/>

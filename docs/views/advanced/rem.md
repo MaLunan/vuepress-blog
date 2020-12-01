@@ -1,10 +1,10 @@
 ---
-title: 高级进阶-移动端rem适配封装
+title: 前端进阶-移动端rem适配封装
 sidebar: true
 # isShowComments: true
 ---
 
-# 高级进阶-移动端rem适配封装
+# 前端进阶-移动端rem适配封装
 
 <ClientOnly>
 <title-pv/>

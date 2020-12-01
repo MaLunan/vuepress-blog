@@ -1,9 +1,9 @@
 ---
-title: 面试宝典-JS基础2
+title: 前端面试题-JS基础2
 sidebar: true
 ---
 
-# 面试宝典-JS基础2
+# 前端面试题-JS基础2
 
 <ClientOnly>
 <title-pv/>

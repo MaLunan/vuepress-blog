@@ -1,9 +1,9 @@
 ---
-title: 面试宝典-vue
+title: 前端面试题-vue
 sidebar: true
 ---
 
-# 面试宝典-vue
+# 前端面试题-vue
 
 <ClientOnly>
 <title-pv/>

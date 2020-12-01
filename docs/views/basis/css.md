@@ -1,9 +1,9 @@
 ---
-title: 基础知识-css常用属性
+title: 前端基础-css常用属性
 sidebar: true
 ---
 
-# 基础知识-css常用属性
+# 前端基础-css常用属性
 
 <ClientOnly>
 <title-pv/>

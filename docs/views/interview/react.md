@@ -1,9 +1,9 @@
 ---
-title: 面试宝典-react
+title: 前端面试题-react
 sidebar: true
 --- 
 
-# 面试宝典-react
+# 前端面试题-react
 
 <ClientOnly>
 <title-pv/>

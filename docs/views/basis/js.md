@@ -1,10 +1,10 @@
 ---
-title: 基础知识-js常用代码
+title: 前端基础-js常用代码
 sidebar: true
 # isShowComments: true
 ---
 
-# 基础知识-js常用代码
+# 前端基础-js常用代码
 
 <ClientOnly>
 <title-pv/>

@@ -1,10 +1,10 @@
 ---
-title: 高级进阶-数组
+title: 前端进阶-数组
 sidebar: true
 # isShowComments: true
 ---
 
-# 高级进阶-数组
+# 前端进阶-数组
 
 <ClientOnly>
 <title-pv/>

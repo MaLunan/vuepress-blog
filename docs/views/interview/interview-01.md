@@ -1,9 +1,9 @@
 ---
-title: 面试宝典-高频问题
+title: 前端面试题-高频问题
 sidebar: true
 ---
 
-# 面试宝典-高频问题
+# 前端面试题-高频问题
 
 <ClientOnly>
 <title-pv/>
