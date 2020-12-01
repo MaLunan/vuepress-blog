@@ -1,4 +1,5 @@
 //侧边栏
+// const autosidebar = require('vuepress-auto-sidebar-doumjun')
 module.exports = {
     '/views/': [
         {
@@ -18,7 +19,8 @@ module.exports = {
                 'advanced/array-note.md',
                 'advanced/vscode.md',
                 'advanced/rem.md',
-                'advanced/nginx.md'
+                'advanced/nginx.md',
+                'advanced/vueDataMoudule.md'
             ]
         },
         {
@@ -36,7 +38,7 @@ module.exports = {
                 'interview/jsbasis.md',
                 'interview/vue.md',
                 'interview/react.md',
-                'interview/status.md'
+                'interview/status.md',
             ]
         },
     ],

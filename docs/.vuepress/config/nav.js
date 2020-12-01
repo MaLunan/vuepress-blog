@@ -33,16 +33,4 @@ module.exports = [
     },
     {text: '随笔', link: '/jottings/20200904',},
     {text: '关于我', link: '/about/',},
-    // {
-    //     text: '知识笔记',
-    //     items: [
-    //             {
-    //                 text: '基础知识',
-    //                 items: [{
-    //                     text: 'My Project22',
-    //                     link: '/other/project',
-    //                 }]
-    //             },
-    //         ]
-    // },
 ]

@@ -17,6 +17,12 @@
     "element-ui": "^2.13.2",
     "form-create": "^1.6.6",
     "sass": "^1.26.10",
-    "sass-loader": "^10.0.1"
+    "sass-loader": "^10.0.1",
+    "vuepress-auto-sidebar-doumjun": "^1.0.1"
+  },
+  "devDependencies": {
+    "vuepress": "^1.7.1",
+    "vuepress-plugin-auto-sidebar": "^1.5.0",
+    "vuepress-plugin-autobar": "github:boboidream/vuepress-bar"
   }
 }
