@@ -15,7 +15,10 @@ module.exports = {
             title: '高级进阶',
             collapsable: true,
             children: [
-                'advanced/array-note.md'
+                'advanced/array-note.md',
+                'advanced/vscode.md',
+                'advanced/rem.md',
+                'advanced/nginx.md'
             ]
         },
         {
@@ -32,7 +35,8 @@ module.exports = {
                 'interview/interview-01.md',
                 'interview/jsbasis.md',
                 'interview/vue.md',
-                'interview/react.md'
+                'interview/react.md',
+                'interview/status.md'
             ]
         },
     ],

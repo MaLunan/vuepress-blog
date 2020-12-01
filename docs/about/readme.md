@@ -17,9 +17,9 @@ sidebar: false
 
 ### 关于我
 
-- MaLunan|小峰峰峰
+- MaLunan
 - 职业：前端工程师
-- 现居：北京
+- 现居：北京大兴
 - 喜欢写Bug，玩游戏，喜欢搞一些新鲜玩意儿，喜欢新的技术，喜欢吃肉
 - 俗话说的好，好记性不如烂笔头，就想着弄一个个人博客，记录一下知识，记录一下生活，如果喜欢的话，就给个[start](https://github.com/MaLunan/vuepress-blog)吧
 
@@ -38,8 +38,8 @@ Jquery
 Vue
 <el-progress :text-inside="true" :stroke-width="24" :percentage="80" status="success"></el-progress>
 react
-<el-progress :text-inside="true" :stroke-width="22" :percentage="20" status="warning"></el-progress>
-echarts
+<el-progress :text-inside="true" :stroke-width="22" :percentage="40" status="warning"></el-progress>
+echarts/g2/g6
 <el-progress :text-inside="true" :stroke-width="20" :percentage="50" status="exception"></el-progress>
 mongoDB
 <el-progress :text-inside="true" :stroke-width="20" :percentage="50" status="exception"></el-progress>
@@ -65,6 +65,15 @@ mongoDB
 <i class='iconfont icon-youxiang' zico='邮箱'></i>  邮箱：[723325701@qq.com](mailto:723325701@qq.com)
 
 <i class='iconfont icon-weixin' zico='微信'></i>  微信：记得收藏哦[微信](https://mp.weixin.qq.com/s/3aDaJckgca24fwwbH_sXnA)
+
+### 赏千金封万户侯
+
+<img style="border-radius:10%;pointer-events:none;transform: scale(0.9);" :src="$withBase('/wx.png')" alt="MaLUnan-个人博客|IT技术博客" width=260>
+<img style="border-radius:10%;pointer-events:none;transform: scale(0.9);" :src="$withBase('/zfb.jpg')" alt="MaLUnan-个人博客|IT技术博客" width=260>
+
+### 友情链接 
+
+交换友链私聊我或者给我留言哦~
 
 <style lang="stylus" scoped> 
 .icon.iconfont {

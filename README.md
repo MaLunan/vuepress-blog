@@ -64,3 +64,20 @@ dccs >.vuepress/enhanceApp.js 添加一些外置插件等
    └─ four.md
 ```
 
+## 文档创建格式
+
+---
+title: 导航-标题
+sidebar: true
+# isShowComments: true
+---
+
+# 导航-标题
+
+<ClientOnly>
+<title-pv/>
+</ClientOnly>
+——————内容
+<ClientOnly>
+  <leave/>
+</ClientOnly/>
