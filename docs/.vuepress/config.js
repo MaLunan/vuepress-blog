@@ -24,7 +24,9 @@ module.exports = {
             "language": "javascript",
             "type": "text/javascript",
             "src": "/iconfont/iconfont.js"
-          }]
+        }],["script", {
+            "src": "https://cdn.jsdelivr.net/gh/MaLunan/live2d-widget@latest/autoload.js",
+        }],
     ],
     dest: './docs/.vuepress/dist',
     // permalink: "/:year/:month/:day/:slug", //配置永久链接
