@@ -18,6 +18,12 @@ module.exports = {
             name: 'baidu-site-verification',
             content: 'bdukCluk30'
         }],['meta', {
+            httpEquiv: 'Content-Type',
+            content: 'text/html;charset=gb2312',
+        }],['meta', {
+            name: 'sogou_site_verification',
+            content: 'gReIJbnqBO'
+        }],['meta', {
             name: 'author',
             content: 'MaNong'
         }],["script", {
