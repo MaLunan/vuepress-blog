@@ -1,11 +1,13 @@
 ---
-title: 面试宝典-JS基础
+title: 前端面试题-JS基础
 sidebar: true
 ---
 
-# 面试宝典-JS基础
+# 前端面试题-JS基础
 
+<ClientOnly>
 <title-pv/>
+</ClientOnly>
 
 ## javascript的typeof返回哪些数据类型
 
@@ -801,4 +803,6 @@ return inner;
 outer()();
 ```
 
-<leave/>
+<ClientOnly>
+  <leave/>
+</ClientOnly/>

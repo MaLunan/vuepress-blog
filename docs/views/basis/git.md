@@ -1,11 +1,13 @@
 ---
-title: 基础知识-git常用指令
+title: 前端基础-git常用指令
 sidebar: true
 ---
 
-# 基础知识-git常用指令
+# 前端基础-git常用指令
 
+<ClientOnly>
 <title-pv/>
+</ClientOnly>
 
 ## 初始化
 
@@ -81,4 +83,6 @@ sidebar: true
 `git config --global credential.helper store`
 
 
-<leave/>
+<ClientOnly>
+  <leave/>
+</ClientOnly/>

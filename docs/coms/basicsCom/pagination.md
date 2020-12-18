@@ -6,7 +6,9 @@ editLinks: false
 
 # 基础组件-分页器
 
+<ClientOnly>
 <title-pv/>
+</ClientOnly>
 
 <pagination/>
 
@@ -171,4 +173,6 @@ export default {
 
 
 
-<leave/>
+<ClientOnly>
+  <leave/>
+</ClientOnly/>

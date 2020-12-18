@@ -6,15 +6,21 @@
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
-    "deploy": "sh deploy.sh"
+    "deploy": "bash deploy.sh"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@form-create/element-ui": "^1.0.19",
     "axios": "^0.20.0",
     "element-ui": "^2.13.2",
+    "form-create": "^1.6.6",
     "sass": "^1.26.10",
-    "sass-loader": "^10.0.1"
+    "sass-loader": "^10.0.1",
+    "vuepress-sidebar-atuo": "^1.0.0"
+  },
+  "devDependencies": {
+    "vuepress": "^1.7.1"
   }
 }

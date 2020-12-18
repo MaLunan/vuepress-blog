@@ -1,11 +1,13 @@
 ---
-title: 面试宝典-JS基础2
+title: 前端面试题-JS基础2
 sidebar: true
 ---
 
-# 面试宝典-JS基础2
+# 前端面试题-JS基础2
 
+<ClientOnly>
 <title-pv/>
+</ClientOnly>
 
 ``` 
 78. javascript  的本地对象，内置对象和宿主对象
@@ -3323,4 +3325,6 @@ NULL、FALSE、array()、var $var; 以及没有任何属性的对象都将被认
 7.你遇到过比较难的技术问题是？你是如何解决的？
 ```
 
-<leave/>
+<ClientOnly>
+  <leave/>
+</ClientOnly/>

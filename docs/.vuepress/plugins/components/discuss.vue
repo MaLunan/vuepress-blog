@@ -1,4 +1,4 @@
-//分页
+//discuss
 <template>
     <ul v-if="dataList">
            <li v-for="(item,index) in dataList.allparent" :key="index">
@@ -27,21 +27,15 @@
                                         </p>
                                         <p><span class="aite">@{{str.parentName}}</span>{{str.content}}</p>
                                         <div class="footer-box">
-                                            <i class="iconfont icon-dianzan zan"></i>
-                                            <i class="iconfont icon-cha-copy-copy zan"></i>
+                                            <!-- <i class="iconfont icon-dianzan zan"></i>
+                                            <i class="iconfont icon-cha-copy-copy zan"></i> -->
                                             <el-button type="primary" round size='mini'@click="addMsgstr(index,ind)">{{activeitem===index&&activestr===ind&&strIs?'关闭':'回复'}}</el-button>
                                         </div>
                                         <emalipush :row="2" v-if="activeitem===index&&activestr===ind&&strIs" :itemList='str' :id='item.id'></emalipush>
                                     </div>
-                                    <div>
-
-                                    </div>
                                 </div>  
                             </li>
                         </ul>
-                    </div>
-                    <div>
-
                     </div>
                </div>  
            </li>
@@ -49,7 +43,6 @@
 </template>
 
 <script>
-import { getblog,addMsg } from '../../public/https/api.js';
 import emalipush from '../components/emalipush.vue';
 export default {
 components:{emalipush},
@@ -103,7 +96,7 @@ components:{emalipush},
     }
     .text-box{
         margin-left: 24px;
-        width: 100%;
+        width: calc(100% - 88px);
         .title-text{
             color: #ccc;
         }

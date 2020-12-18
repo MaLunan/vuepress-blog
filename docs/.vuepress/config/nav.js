@@ -27,22 +27,10 @@ module.exports = [
                     link:'/coms/basicsCom/pagination'
                 },{
                     text: '业务组件',
-                    link:'/coms/professionCom/yewu'
+                    link:'/coms/professionCom/msg'
                 },
             ]
     },
     {text: '随笔', link: '/jottings/20200904',},
     {text: '关于我', link: '/about/',},
-    // {
-    //     text: '知识笔记',
-    //     items: [
-    //             {
-    //                 text: '基础知识',
-    //                 items: [{
-    //                     text: 'My Project22',
-    //                     link: '/other/project',
-    //                 }]
-    //             },
-    //         ]
-    // },
 ]

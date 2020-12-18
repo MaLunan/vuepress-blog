@@ -6,7 +6,9 @@ sidebar: true
 
 # Bug-bug退散
 
+<ClientOnly>
 <title-pv/>
+</ClientOnly>
 
 ```
 /**
@@ -114,4 +116,6 @@ sidebar: true
   //   
 ```
 
-<leave/>
+<ClientOnly>
+  <leave/>
+</ClientOnly/>

@@ -1,4 +1,4 @@
-//分页
+//浏览量
 <template>
 <div class="msga">
     <i class="iconfont icon-renyuan title-text" v-if="this.$page.frontmatter.username" >{{this.$page.frontmatter.username}}</i>
@@ -8,20 +8,22 @@
 </template>
 
 <script>
-import { getPv } from '../public/https/api.js';
 export default {
   data(){
       return {
-      dataList:[]
+      dataList:[],
+      getPvs:null
       }
   },
   mounted(){
-            this.getPv()
-            console.log(this)
+            import('../public/https/api.js').then(module => {
+                this.getPvs=module.getPv
+                this.getPv()
+            })
   },
   methods: {
         getPv(){
-            getPv(this.$page.path).then((res)=>{
+            this.getPvs(this.$page.path).then((res)=>{
                 if(res.data.err!==0) return console.log(res.data)
                this.dataList=res.data.list
             })

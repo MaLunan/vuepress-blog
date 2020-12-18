@@ -1,11 +1,13 @@
 ---
-title: 面试宝典-高频问题
+title: 前端面试题-高频问题
 sidebar: true
 ---
 
-# 面试宝典-高频问题
+# 前端面试题-高频问题
 
+<ClientOnly>
 <title-pv/>
+</ClientOnly>
 
 ## 你做的页面在哪些流览器测试过？这些浏览器的内核分别是什么?
 
@@ -869,4 +871,6 @@ display:inline-block  转为内联元素
 * 以最后载入的样式为准;
 
 
-<leave/>
+<ClientOnly>
+  <leave/>
+</ClientOnly/>

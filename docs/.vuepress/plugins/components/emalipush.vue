@@ -1,9 +1,9 @@
-//分页
+//emailpush.vue
 <template>
    <div class='msg_box'>
         <div class='title_box'>
-            <span class="lable">昵称:</span><el-input v-model="username" style='width:120px' placeholder="昵称"></el-input>
-            <span class="lable">邮箱:</span><el-input v-model="emali"  style='flex:1;' placeholder="输入邮箱可以收到邮件回复哦~"></el-input>
+            <span class="lable">昵称:</span><el-input v-model="username" style='width:120px;' placeholder="昵称"></el-input>
+            <span class="lable">邮箱:</span><el-input v-model="emali"  style='flex:1'  placeholder="输入邮箱可以收到邮件回复哦~"></el-input>
         </div>
         <el-input
             type="textarea"
@@ -18,7 +18,6 @@
 </template>
 
 <script>
-import { getblog,addMsg } from '../../public/https/api.js';
 export default {
     props:{
         row:{
@@ -41,6 +40,8 @@ export default {
           username:"",
           emali:"",
           content:'',
+          getblogs:null,
+          addMsgs:null
       }
   },
   mounted(){
@@ -49,6 +50,10 @@ export default {
        this.username=username
        this.emali=emali
      }
+     import('../../public/https/api.js').then(module => {
+                this.getblogs=module.getblog
+                this.addMsgs=module.addMsg
+    })
   },
   methods: {
         addMsg(){
@@ -66,7 +71,7 @@ export default {
                 return
             }
             
-            addMsg({
+            this.addMsgs({
                 username:this.username,
                 emali:this.emali,
                 content:this.content,
@@ -103,10 +108,11 @@ li{
     margin:24px auto;
     box-shadow:0px 4px 12px 0px;
     .title_box{
-        height:48px;
+        min-height:48px;
         border-bottom:1px solid rgba(0,0,0,0.3);
         display:flex;
-        align-items: center
+        flex-wrap: wrap;
+        align-items: center;
     }
     .lable{
         padding-right:12px;

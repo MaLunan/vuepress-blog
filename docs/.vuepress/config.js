@@ -1,6 +1,5 @@
 const  nav =require('./config/nav.js') ;
 const  sidebar =require('./config/sidebar.js');
-
 module.exports = {
     title: 'MaLunan-个人博客|IT技术博客',
     description: 'MaLunan个人博客网站，学习前端、后端知识，分享面试经验，分享工作中的问题和写一些技术分享，是一个互联网从业者值得收藏的网站。',
@@ -19,13 +18,18 @@ module.exports = {
             name: 'baidu-site-verification',
             content: 'bdukCluk30'
         }],['meta', {
+            name: 'sogou_site_verification',
+            content: 'gReIJbnqBO'
+        }],['meta', {
             name: 'author',
             content: 'MaNong'
         }],["script", {
             "language": "javascript",
             "type": "text/javascript",
             "src": "/iconfont/iconfont.js"
-          }]
+        }],["script", {
+            "src": "https://cdn.jsdelivr.net/gh/MaLunan/live2d-widget@latest/autoload.js",
+        }],
     ],
     dest: './docs/.vuepress/dist',
     // permalink: "/:year/:month/:day/:slug", //配置永久链接

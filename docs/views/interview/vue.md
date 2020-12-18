@@ -1,11 +1,13 @@
 ---
-title: 面试宝典-vue
+title: 前端面试题-vue
 sidebar: true
 ---
 
-# 面试宝典-vue
+# 前端面试题-vue
 
+<ClientOnly>
 <title-pv/>
+</ClientOnly>
 
 ## 对于 MVVM的理解？
 
@@ -258,4 +260,6 @@ matched，name等路由信息参数。而$router是“路由实例”对象包�
 可以使用浏览器的导航按钮需要自行实现前进、后退。
 
 
-<leave/>
+<ClientOnly>
+  <leave/>
+</ClientOnly/>

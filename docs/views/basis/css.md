@@ -1,11 +1,13 @@
 ---
-title: 基础知识-css常用属性
+title: 前端基础-css常用属性
 sidebar: true
 ---
 
-# 基础知识-css常用属性
+# 前端基础-css常用属性
 
+<ClientOnly>
 <title-pv/>
+</ClientOnly>
 
 ## 基础标签
 
@@ -610,4 +612,6 @@ output输出
 
 multiple可以输出多个值     多文件上传
 
-<leave/>
+<ClientOnly>
+  <leave/>
+</ClientOnly/>
