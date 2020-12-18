@@ -9,7 +9,7 @@ module.exports = [
                     link:'/views/basis/git'
                 },{
                     text: '高级进阶',
-                    link:'/views/advanced/array-note'
+                    link:'/views/advanced/jiaoshoujia-02'
                 },{
                     text: 'Bug',
                     link:'/views/Bug/bug'
