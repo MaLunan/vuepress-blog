@@ -53,6 +53,16 @@ module.exports = {
 
 ```
 
+# 排序
+
+-文件名格式 不设置则排最后 数值越小，越靠前
+
+xxxxx-01,
+xxxxx-02,
+xxxxx-03
+...
+
+
 <ClientOnly>
   <leave/>
 </ClientOnly/>
