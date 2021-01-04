@@ -10,5 +10,5 @@ features:
   details: 一些项日常用的基础组件，以及二次封装有复杂逻辑的业务组件。
 - title: 随笔笔记 
   details: 记录生活，记录成长，记录小美好。
-footer: Copyright © 2020 Malunan  京ICP备19053813号
 ---
+Copyright © 2020 Malunan  [京ICP备19053813号-1](https://beian.miit.gov.cn)
