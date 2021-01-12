@@ -20,7 +20,7 @@ sidebar: false
 - MaLunan
 - 职业：前端工程师
 - 现居：北京大兴
-- 喜欢写Bug，玩游戏，喜欢搞一些新鲜玩意儿，喜欢新的技术，喜欢吃肉
+- 喜欢写Bug，玩游戏，喜欢搞一些新鲜玩意儿，喜欢新的技术，喜欢吃肉，有一条7个多月的边牧boy
 - 俗话说的好，好记性不如烂笔头，就想着弄一个个人博客，记录一下知识，记录一下生活，如果喜欢的话，就给个[start](https://github.com/MaLunan/vuepress-blog)吧
 
 ### 技能树
@@ -45,6 +45,8 @@ mongoDB
 <el-progress :text-inside="true" :stroke-width="20" :percentage="50" status="exception"></el-progress>
 小程序
 <el-progress :text-inside="true" :stroke-width="24" :percentage="80" status="success"></el-progress>
+遛狗
+<el-progress :text-inside="true" :stroke-width="24" :percentage="100" status="success"></el-progress>
 
 ### 参与社区
 
@@ -66,7 +68,7 @@ mongoDB
 
 <i class='iconfont icon-weixin' zico='微信'></i>  微信：记得收藏哦[微信](https://mp.weixin.qq.com/s/3aDaJckgca24fwwbH_sXnA)
 
-### 赏千金封万户侯
+### 赏点狗粮
 
 <img style="border-radius:10%;pointer-events:none;transform: scale(0.9);" :src="$withBase('/wx.png')" alt="MaLUnan-个人博客|IT技术博客" width=260>
 <img style="border-radius:10%;pointer-events:none;transform: scale(0.9);" :src="$withBase('/zfb.jpg')" alt="MaLUnan-个人博客|IT技术博客" width=260>
