@@ -11,4 +11,8 @@ features:
 - title: 随笔笔记 
   details: 记录生活，记录成长，记录小美好。
 ---
+
+github开源地址：[https://github.com/MaLunan/vuepress-blog](https://github.com/MaLunan/vuepress-blog)
+
+
 Copyright © 2020 Malunan  [京ICP备19053813号-1](https://beian.miit.gov.cn)
