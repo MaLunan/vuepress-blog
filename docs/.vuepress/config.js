@@ -1,8 +1,8 @@
 const  nav =require('./config/nav.js') ;
 const  sidebar =require('./config/sidebar.js');
 module.exports = {
-    title: '写代码不如去遛狗-个人博客|IT技术博客',
-    description: '写代码不如去遛狗，个人博客网站，学习前端、后端知识，分享面试经验，分享工作中的问题和写一些技术分享，是一个互联网从业者值得收藏的网站。',
+    title: '个人博客|IT技术博客',
+    description: '个人博客网站，学习前端、后端知识，分享面试经验，分享工作中的问题和写一些技术分享，是一个互联网从业者值得收藏的网站。',
     base:"/",
     head: [
         ['link', {

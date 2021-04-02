@@ -17,7 +17,6 @@ sidebar: false
 
 ### 关于我
 
-- MaLunan
 - 职业：前端工程师
 - 现居：北京大兴
 - 喜欢写Bug，玩游戏，喜欢搞一些新鲜玩意儿，喜欢新的技术，喜欢吃肉，有一条7个多月的边牧boy
@@ -55,12 +54,6 @@ mongoDB
 <i class='iconfont icon-jianshu' style='color:#ea6f5a' zico='简书'></i> 简书：[https://www.jianshu.com/u/c41a255ced87](https://www.jianshu.com/u/c41a255ced87)
 
 <i class='iconfont icon-csdn' zico='CSDN'></i>  CSDN：[https://blog.csdn.net/Ma_lunan](https://blog.csdn.net/Ma_lunan)
-
-<!-- <i class='iconfont icon-bilibili' zico='bilibili'></i>  bilibili： -->
-
-<i class='iconfont icon-github' zico='github'></i>  github：[https://github.com/MaLunan](https://github.com/MaLunan)
-
-<i class='iconfont icon-zhuye' zico='博客'></i>  博客：[https://zmln1021.cn](https://zmln1021.cn) ||  [https://malunan.github.io/](https://malunan.github.io/)
 
 ### 联系我
 
