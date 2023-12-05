@@ -9,7 +9,7 @@ git commit -m '更新文章'
 git push origin dev-mln
 
 # 生成静态文件
-npm run docs:build
+npm run build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
